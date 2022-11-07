@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .App {
   text-align: center;
 }
@@ -58,4 +59,10 @@
   to {
     transform: rotate(360deg);
   }
+=======
+.hptext{
+font-size: 25px;
+background-color: rgb(252, 252, 249);
+text-align: center;
+>>>>>>> 687092c (add home page)
 }
