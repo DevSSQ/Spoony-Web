@@ -2,15 +2,38 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.aboutus{
+  background-color: aliceblue;
+  height: 250px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius:200px; 
+
 }
+
+
+
+
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.spoonylogo{
+  width: 200px;
+  align-items: baseline;
+  margin-top: 25px;
+  margin-left: -35px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
 .App-header {
