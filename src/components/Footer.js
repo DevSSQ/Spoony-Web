@@ -55,14 +55,14 @@ import {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
           <Text color='#F2F2F2'>© 2022 Spoony. All rights reserved</Text>
-          <Stack direction={'row'} spacing={6} color ='#F2F2F2'>
-            <SocialButton label={'Twitter'} href={'#'}>
+          <Stack direction={'row'} spacing={6} color ='#F2F2F2' >
+            <SocialButton label={'Twitter'} href={'#'} >
               <FaTwitter />
             </SocialButton>
             <SocialButton label={'YouTube'} href={'#'}>
               <FaYoutube />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
+            <SocialButton label={'Instagram'} href={'#'} >
               <FaInstagram />
             </SocialButton>
           </Stack>

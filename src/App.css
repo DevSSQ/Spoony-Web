@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 .aboutus{
   background-color: aliceblue;
@@ -8,13 +9,66 @@
 
 }
 
+=======
+.AboutUsImg{
+  height: 500px;
+  margin-left: 90px;
+}
+.aboutusgrid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.aboutusbar{
+  
+  background-color: #A7D6CE;
+  height: 180px;
+  border-bottom-left-radius: 600px;
+border-end-end-radius: 600px;
+border-end-start-radius:600px ;
+}
+
+
+
+.aboutustext{
+  font-size: 40px;
+  color: #f2f2f2;
+}
+
+.textDec{
+
+  /* width: 400px; */
+  text-align: center;
+  margin-left: 90px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  font-size: 25px;
+  color: #F0677C; 
+  background-color: rgb(252, 252, 249);
+
+}
+
+
+
+>>>>>>> origin
 .spoonylogo{
   width: 200px;
   align-items: baseline;
   margin-top: 25px;
   margin-left: -35px;
 }
+<<<<<<< HEAD
 
+=======
+
+
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+>>>>>>> origin
 .hptext{
 font-size: 25px;
 background-color: rgb(252, 252, 249);

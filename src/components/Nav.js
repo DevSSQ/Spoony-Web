@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin
 import { React } from 'react';
 
 import {
@@ -20,7 +23,7 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 
-const Links = ['Home Page', 'Recipes', 'About Us'];
+const Links = ['الرئيسية', 'الوصفات', ' من نحن'];
 
 const NavLink =( { children })=> (
   <Link
@@ -62,7 +65,17 @@ export default function Nav() {
               ))}
             </HStack>
           </HStack>
-         
+          <Button 
+            _hover={{bg:"#F0677C", color:"white"}}
+            //  onClick={postData}
+            variantColor="#F0677C"
+            color={'white'}
+            variant="outline"
+            type="submit"
+            width="50"
+            mt={0}>
+            Sign Up
+             </Button>
         </Flex>
 
         {isOpen ? (
