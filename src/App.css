@@ -1,8 +1,4 @@
 
-.App {
-  text-align: center;
-}
-
 .AboutUsImg{
   height: 500px;
   margin-left: 90px;
@@ -20,6 +16,8 @@
 border-end-end-radius: 600px;
 border-end-start-radius:600px ;
 }
+
+
 
 .aboutustext{
   font-size: 40px;
@@ -40,6 +38,7 @@ border-end-start-radius:600px ;
 }
 
 
+
 .spoonylogo{
   width: 200px;
   align-items: baseline;
@@ -48,10 +47,14 @@ border-end-start-radius:600px ;
 }
 
 
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 
 .hptext{
 font-size: 25px;
 background-color: rgb(252, 252, 249);
 text-align: center;
-
 }
