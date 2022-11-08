@@ -76,4 +76,31 @@ export const RecArray = [
         name: 'Crunchy Granola Pretzel Sticks',
         eTime:'Total Time: 25 min + standing',
     }
+
+    ,
+
+    {
+        id:'10',
+        pic:'https://www.tasteofhome.com/wp-content/uploads/2018/01/No-Bake-Peanut-Butter-Treats_EXPS_HRBZ18_39228_D09_06_1b-4.jpg?fit=700,1024',
+        name: 'No-Bake Peanut Butter Treats',
+        eTime:'Total Time: 10 min',
+    }
+
+    ,
+
+    {
+        id:'11',
+        pic:'https://www.tasteofhome.com/wp-content/uploads/2018/01/exps186692_SD153319B10_14_6b-7.jpg?fit=700,1024',
+        name: 'Brownie Batter Dip',
+        eTime:'Total Time: 10 min',
+    }
+
+    ,
+
+    {
+        id:'12',
+        pic:'https://www.tasteofhome.com/wp-content/uploads/2018/01/Apple-Yogurt-Parfaits_EXPS_HRBZ17_44944_C08_30_3b-12.jpg?fit=700,1024',
+        name: 'Apple Yogurt Parfaits',
+        eTime:'Total Time: 10 min',
+    }
 ]
