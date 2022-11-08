@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -40,4 +41,13 @@ border-end-start-radius:600px ;
   align-items: baseline;
   margin-top: 25px;
   margin-left: -35px;
+}
+
+
+
+.hptext{
+font-size: 25px;
+background-color: rgb(252, 252, 249);
+text-align: center;
+
 }
