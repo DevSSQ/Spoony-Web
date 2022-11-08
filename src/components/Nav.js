@@ -20,7 +20,7 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 
-const Links = ['Home Page', 'Recipes', 'About Us'];
+const Links = ['الرئيسية', 'الوصفات', ' من نحن'];
 
 const NavLink =( { children })=> (
   <Link
