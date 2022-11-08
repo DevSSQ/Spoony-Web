@@ -2,60 +2,42 @@
   text-align: center;
 }
 
+.AboutUsImg{
+  height: 500px;
+  margin-left: 90px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
 .aboutus{
-  background-color: aliceblue;
-  height: 250px;
-  border-bottom-left-radius: 200px;
-  border-bottom-right-radius:200px; 
-
+  
+  background-color: #A7D6CE;
+  height: 180px;
+  border-bottom-left-radius: 600px;
+border-end-end-radius: 600px;
+border-end-start-radius:600px ;
 }
 
-
-
-
-
-
-
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.aboutustext{
+  font-size: 40px;
+  color: #f2f2f2;
 }
+
+.textDec{
+
+  width: 400px;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-size: 25px;
+  color: #413c3c; 
+}
+
 
 .spoonylogo{
   width: 200px;
   align-items: baseline;
   margin-top: 25px;
   margin-left: -35px;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
