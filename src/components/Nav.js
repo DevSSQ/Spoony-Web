@@ -1,4 +1,3 @@
-import { ReactNode } from 'react';
 import { React } from 'react';
 
 import {
@@ -62,7 +61,17 @@ export default function Nav() {
               ))}
             </HStack>
           </HStack>
-         
+          <Button 
+            _hover={{bg:"#F0677C", color:"white"}}
+            //  onClick={postData}
+            variantColor="#F0677C"
+            color={'white'}
+            variant="outline"
+            type="submit"
+            width="50"
+            mt={0}>
+            Sign Up
+             </Button>
         </Flex>
 
         {isOpen ? (

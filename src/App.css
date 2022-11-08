@@ -7,12 +7,12 @@
   height: 500px;
   margin-left: 90px;
 }
-.grid{
+.aboutusgrid{
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
 
-.aboutus{
+.aboutusbar{
   
   background-color: #A7D6CE;
   height: 180px;
@@ -28,11 +28,15 @@ border-end-start-radius:600px ;
 
 .textDec{
 
-  width: 400px;
+  /* width: 400px; */
+  text-align: center;
   margin-left: 90px;
   margin-top: 100px;
+  margin-bottom: 300px;
   font-size: 25px;
-  color: #413c3c; 
+  color: #F0677C; 
+  background-color: rgb(252, 252, 249);
+
 }
 
 

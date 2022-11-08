@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 import {
     Container,
     Stack,
@@ -150,4 +149,4 @@ import {
       </Icon>
     );
   };
->>>>>>> 687092c (add home page)
+ 
