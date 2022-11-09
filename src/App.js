@@ -7,11 +7,11 @@ import FullRecipesCard from './components/FullRecipesCard';
 import Info from './components/Info'
 import Recipes from './components/Recipes';
 
+
 function App() {
   return (
     <div className="App">
      
-
 
     </div>
 

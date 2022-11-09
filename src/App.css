@@ -1,5 +1,4 @@
 
-
 .aboutus{
   background-color: aliceblue;
   height: 250px;
@@ -7,7 +6,6 @@
   border-bottom-right-radius:200px; 
 
 }
-
 .AboutUsImg{
   height: 500px;
   margin-left: 90px;
@@ -39,7 +37,6 @@ margin-top: 60px;
 
 }
 
-
 .spoonylogo{
   width: 130px;
   align-items: baseline;
@@ -47,10 +44,10 @@ margin-top: 60px;
   margin-left: -20px;
 }
 
-
 .cards-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
 }
 
 
@@ -58,6 +55,7 @@ margin-top: 60px;
 font-size: 25px;
 text-align: center;
 }
+
 
 .HPDesign
 {
@@ -71,6 +69,7 @@ text-align: center;
 
 
 }
+
 .design{
   margin-top: -480px;
   margin-left: 700px;
@@ -80,5 +79,9 @@ text-align: center;
   height: 900px;
   z-index: -1;
   clip-path: circle(80% at 100% 32%);
+}
+.Search{
+  margin-top: 20px;
+  margin-left: 80px;
 
 }
