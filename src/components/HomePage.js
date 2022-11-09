@@ -1,4 +1,3 @@
-
 import {
     Container,
     Stack,
@@ -149,4 +148,7 @@ import {
       </Icon>
     );
   };
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin

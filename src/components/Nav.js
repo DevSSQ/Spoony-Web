@@ -1,6 +1,9 @@
 import { React } from 'react';
+<<<<<<< HEAD
 import { RecArray } from './RecArray';
 import Cards from './RecCards'
+=======
+>>>>>>> origin
 import {
   Box,
   Flex,
