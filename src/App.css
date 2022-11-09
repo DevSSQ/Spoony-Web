@@ -1,5 +1,5 @@
 
-<<<<<<< HEAD
+
 
 .aboutus{
   background-color: aliceblue;
@@ -9,7 +9,7 @@
 
 }
 
-=======
+
 .AboutUsImg{
   height: 500px;
   margin-left: 90px;
@@ -50,27 +50,30 @@ border-end-start-radius:600px ;
 
 
 
->>>>>>> origin
+
 .spoonylogo{
   width: 200px;
   align-items: baseline;
   margin-top: 25px;
   margin-left: -35px;
 }
-<<<<<<< HEAD
 
-=======
 
 
 .cards-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
 }
 
 
->>>>>>> origin
 .hptext{
 font-size: 25px;
 background-color: rgb(252, 252, 249);
 text-align: center;
+}
+
+.Search{
+  margin-top: 20px;
+  margin-left: 80px;
 }

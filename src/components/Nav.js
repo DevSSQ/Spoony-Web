@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> origin
 import { React } from 'react';
-
+import { RecArray } from './RecArray';
+import Cards from './RecCards'
 import {
   Box,
   Flex,
@@ -20,8 +17,9 @@ import {
   useDisclosure,
   useColorModeValue,
   Stack,
+  Input,
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon, AddIcon, } from '@chakra-ui/icons';
 
 const Links = ['الرئيسية', 'الوصفات', ' من نحن'];
 
@@ -39,8 +37,9 @@ const NavLink =( { children })=> (
   </Link>
 );
 
-export default function Nav() {
+function Nav() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+ 
 
   return (
     <>
@@ -92,3 +91,5 @@ export default function Nav() {
     </>
   );
 }
+
+export default  Nav
