@@ -8,11 +8,14 @@ import Info from './components/Info'
 import Recipes from './components/Recipes';
 
 
+
 function App() {
   return (
     <div className="App">
-     
-
+     <Nav></Nav>
+     {/* <Info></Info> */}
+<HomePage></HomePage>
+<Footer></Footer>
     </div>
 
 

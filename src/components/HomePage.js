@@ -80,6 +80,8 @@ import {
                 src={'./picspoony.png'}
                 zIndex={'-1'}
               />
+          <Box className='HPDesign2 '/>
+
           </Flex>
         </Stack>
       </Container>

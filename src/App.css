@@ -56,7 +56,8 @@ font-size: 25px;
 text-align: center;
 }
 
-
+/* clip-path: circle(64.3% at 0 100%);
+ */
 .HPDesign
 {
   margin-top: -480px;
@@ -66,6 +67,19 @@ text-align: center;
   height: 600px;
   z-index: -1;
   clip-path: circle(95.7% at 100% 3%);
+
+
+}
+.HPDesign2
+{
+  margin-top: 200px;
+  margin-right: 1300px;
+  background-color: #fff1da;
+  position: absolute;
+  width: 632px;
+  height: 600px;
+  z-index: -1;
+  clip-path: circle(64.3% at 0% 91%);
 
 
 }
