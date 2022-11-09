@@ -1,19 +1,17 @@
 import {
-    Badge,
-    Button,
     Center,
     Flex,
     Heading,
     Image,
-    Link,
     Stack,
     Text,
     useColorModeValue,
   } from '@chakra-ui/react';
   
-  export default function FullRecipes() {
+  export default function FullRecipesCard(props) {
     return (
       <Center py={6}>
+
         <Stack
           borderWidth="1px"
           borderRadius="lg"
@@ -27,9 +25,7 @@ import {
             <Image
               objectFit="cover"
               boxSize="100%"
-              src={
-                'https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ'
-              }
+              src={props.pic}
             />
           </Flex>
           <Stack
@@ -40,20 +36,34 @@ import {
             p={1}
             pt={2}>
             <Heading fontSize={'2xl'} fontFamily={'body'}>
-              Lindsey James
+            {props.name}
             </Heading>
             
             <Text
               textAlign={'center'}
               color={useColorModeValue('gray.700', 'gray.400')}
               px={3}>
-              Actress, musician, songwriter and artist. PM for work inquires or
-              <Link href={'#'} color={'blue.400'}>
-                #tag
-              </Link>
-              me in your posts
+              <br></br> <Heading fontSize={'md'}>Ingredients:</Heading>
+           <br></br> {props.Ingred}
+
             </Text>
             
+            <Text
+              textAlign={'center'}
+              color={useColorModeValue('gray.700', 'gray.400')}
+              px={3}>
+                 <br></br> <Heading fontSize={'sm'}>Directions:</Heading>
+            <br></br>{props.Dire}
+
+            </Text>
+
+            <Text
+              textAlign={'center'}
+              color={useColorModeValue('gray.700', 'gray.400')}
+              px={3}>
+            {props.NF}
+
+            </Text>
   
             <Stack
               width={'100%'}
@@ -62,6 +72,7 @@ import {
               padding={2}
               justifyContent={'space-between'}
               alignItems={'center'}>
+
             </Stack>
           </Stack>
         </Stack>
