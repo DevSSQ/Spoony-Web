@@ -1,4 +1,3 @@
-
 import {
     Container,
     Stack,
@@ -21,13 +20,17 @@ import {
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
-          py={{ base: 20, md: 28 }}
+          py={{ base: 20, md: 0 }}
           direction={{ base: 'column', md: 'row' }}>
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Heading
               lineHeight={1.1}
               fontWeight={600}
-              fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
+              fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
+              mt={'-180'}
+              color={'#729B79'}
+              >
+
               <Text
                 as={'span'}
                 position={'relative'}
@@ -38,40 +41,22 @@ import {
                   position: 'absolute',
                   bottom: 1,
                   left: 0,
-                  bg: '#F4A46C',
+                  bg: '#fff1da',
                   zIndex: -1,
+                  color:'#fff1da'
+                  
+                
                 }}>
                 Spoony
-              </Text>
-              <br />
-               <Text as={'span'} color={'#F4A46C'}>
-            
               </Text> 
             </Heading>
-            <Text className='hptext' color={'#F4A46C'}>
+            <Text className='hptext' color={'#729B79'}>
             يقدم موقع سبوني العديد من الوصفات لمساعدة الأم والطفل لقضاء وقت ممتع في تحضير وصفات سهلة وسريعة
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
-              {/* <Button
-                rounded={'full'}
-                size={'lg'}
-                fontWeight={'normal'}
-                px={6}
-                colorScheme={'red'}
-                bg={'red.400'}
-                _hover={{ bg: 'red.500' }}>
-                Get started
-              </Button> */}
-              {/* <Button
-                rounded={'full'}
-                size={'lg'}
-                fontWeight={'normal'}
-                px={6}
-                leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
-                How It Works
-              </Button> */}
+            
             </Stack>
           </Stack>
           <Flex
@@ -80,48 +65,25 @@ import {
             align={'center'}
             position={'relative'}
             w={'full'}>
-            <Blob
-              w={'150%'}
-              h={'150%'}
-              position={'absolute'}
-              top={'-20%'}
-              left={0}
-              zIndex={-1}
-              color={useColorModeValue('yellow.100')}
-            />
-            <Box
-              position={'relative'}
-              height={'300px'}
-              rounded={'2xl'}
-              boxShadow={'2xl'}
-              width={'full'}
-              overflow={'hidden'}>
-              {/* <IconButton
-                aria-label={'Play Button'}
-                variant={'ghost'}
-                _hover={{ bg: 'transparent' }}
-                icon={<PlayIcon w={12} h={12} />}
-                size={'lg'}
-                color={'white'}
-                position={'absolute'}
-                left={'50%'}
-                top={'50%'}
-                transform={'translateX(-50%) translateY(-50%)'}
-              /> */}
-              <Image
+          
+            <Box className='HPDesign '/>
+
+
+        <Image
                 alt={'Hero Image'}
                 fit={'cover'}
                 align={'center'}
                 w={'100%'}
                 h={'100%'}
-                src={
-                  'https://plus.unsplash.com/premium_photo-1661266884885-d51da426a11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29va2luZyUyMHdpdGglMjBjaGlsZHJlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
-                }
+                mt={'-330'}
+                ml={'8'}
+                src={'./picspoony.png'}
+                zIndex={'-1'}
               />
-            </Box>
           </Flex>
         </Stack>
       </Container>
+      
     );
   }
   
@@ -149,4 +111,3 @@ import {
       </Icon>
     );
   };
- 

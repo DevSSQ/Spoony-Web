@@ -1,49 +1,50 @@
 
+
+.aboutus{
+  background-color: aliceblue;
+  height: 250px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius:200px; 
+
+}
+
 .AboutUsImg{
   height: 500px;
   margin-left: 90px;
+  margin-top: -100px;
+  
+
 }
 .aboutusgrid{
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
 
-.aboutusbar{
-  
-  background-color: #A7D6CE;
-  height: 180px;
-  border-bottom-left-radius: 600px;
-border-end-end-radius: 600px;
-border-end-start-radius:600px ;
-}
-
-
 
 .aboutustext{
   font-size: 40px;
-  color: #f2f2f2;
+  color: #729B79;
+margin-left: 130px;
+margin-top: 60px;
 }
 
 .textDec{
-
-  /* width: 400px; */
   text-align: center;
-  margin-left: 90px;
+  margin-left: 130px;
   margin-top: 100px;
   margin-bottom: 300px;
   font-size: 25px;
-  color: #F0677C; 
+  color: #729B79; 
   background-color: rgb(252, 252, 249);
 
 }
 
 
-
 .spoonylogo{
-  width: 200px;
+  width: 130px;
   align-items: baseline;
-  margin-top: 25px;
-  margin-left: -35px;
+  margin-top: 30px;
+  margin-left: -20px;
 }
 
 
@@ -55,6 +56,29 @@ border-end-start-radius:600px ;
 
 .hptext{
 font-size: 25px;
-background-color: rgb(252, 252, 249);
 text-align: center;
+}
+
+.HPDesign
+{
+  margin-top: -480px;
+  background-color: #fff1da;
+  position: absolute;
+  width: 632px;
+  height: 600px;
+  z-index: -1;
+  clip-path: circle(95.7% at 100% 3%);
+
+
+}
+.design{
+  margin-top: -480px;
+  margin-left: 700px;
+  background-color: #fff1da;
+  position: absolute;
+  width: 632px;
+  height: 900px;
+  z-index: -1;
+  clip-path: circle(80% at 100% 32%);
+
 }

@@ -9,11 +9,13 @@ import {
     Stack,
     Text,
     useColorModeValue,
+    Box,
   } from '@chakra-ui/react';
   
   export default function FullRecipesCard(props) {
     return (
       <Center py={6}>
+
         <Stack
           borderWidth="1px"
           borderRadius="lg"
@@ -45,10 +47,27 @@ import {
               textAlign={'center'}
               color={useColorModeValue('gray.700', 'gray.400')}
               px={3}>
-            {props.RecInfo}
+              <br></br> <Heading fontSize={'md'}>Ingredients:</Heading>
+           <br></br> {props.Ingred}
 
             </Text>
             
+            <Text
+              textAlign={'center'}
+              color={useColorModeValue('gray.700', 'gray.400')}
+              px={3}>
+                 <br></br> <Heading fontSize={'sm'}>Directions:</Heading>
+            <br></br>{props.Dire}
+
+            </Text>
+
+            <Text
+              textAlign={'center'}
+              color={useColorModeValue('gray.700', 'gray.400')}
+              px={3}>
+            {props.NF}
+
+            </Text>
   
             <Stack
               width={'100%'}
@@ -57,6 +76,7 @@ import {
               padding={2}
               justifyContent={'space-between'}
               alignItems={'center'}>
+
             </Stack>
           </Stack>
         </Stack>

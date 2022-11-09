@@ -1,5 +1,4 @@
 import { React } from 'react';
-
 import {
   Box,
   Flex,
@@ -19,16 +18,17 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 
-const Links = ['الرئيسية', 'الوصفات', ' من نحن'];
+const Links = ['Home Page', 'Recipes', '  About Us'];
 
 const NavLink =( { children })=> (
   <Link
     px={2}
     py={1}
     rounded={'md'}
+    color={'#729B79'}
     _hover={{
       textDecoration: 'none',
-      bg: useColorModeValue('#f0677c'),
+      bg: useColorModeValue('#d9918b'), color:"#fff1da"
     }}
     href={'./AboutUs'}>
     {children}
@@ -40,7 +40,7 @@ export default function Nav() {
 
   return (
     <>
-      <Box color ='#F2F2F2'bg={useColorModeValue('#A7D6CE', 'gray.900')} px={4}>
+      <Box color ='black'bg={useColorModeValue( )} px={4}  variantColor="#729B79" variant="outline">
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
           
@@ -62,10 +62,10 @@ export default function Nav() {
             </HStack>
           </HStack>
           <Button 
-            _hover={{bg:"#F0677C", color:"white"}}
+            _hover={{bg:"#d9918b", color:"#fff1da"}}
             //  onClick={postData}
-            variantColor="#F0677C"
-            color={'white'}
+            variantColor="#025959"
+            color={'#729B79'}
             variant="outline"
             type="submit"
             width="50"
