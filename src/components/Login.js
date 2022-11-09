@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom';
 import {
     Flex,
     Box,
@@ -7,11 +8,13 @@ import {
     FormControl,
     FormLabel,
     Input,
-    Button
+    Button,
+    Link,
   } from '@chakra-ui/react';
 
 
  function Login() {
+  const navigate = useNavigate();
     const [email, setEmail] = useState()
     const [pass, setPass] = useState()
      let url = "https://6362425566f75177ea2a9ac0.mockapi.io/Todolist"
@@ -27,7 +30,7 @@ import {
 
       function handleSubmit (e) {
          e.preventDefault();
-         // navigate("/HomePage")
+         navigate("/Home")
        }
 
 
@@ -56,17 +59,19 @@ import {
                     <Input type="password" onChange={e=>{setPass(e.target.value)}}/>
                 </FormControl>
 
-            <Button 
+           <Link href ="/Home">
+              <Button 
             _hover={{bg:"#F0677C", color:"white"}}
              onClick={postData}
              textColor={"#F4A46C"}
              variantColor="#F0677C"
             variant="outline"
-            type="submit"
+             type="submit"
             width="full"
             mt={4}>
                 Sign up
              </Button>
+             </Link>
             </form>
            </Box>
           </Box>
