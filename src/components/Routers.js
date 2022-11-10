@@ -11,7 +11,8 @@ function Routers() {
     return (
       <div>
           <Routes>
-
+          <Route path='/' element ={<Login/>}></Route>
+    <Route path='/Home' element ={<HomePage/>}></Route>
           <Route  path='/homepage' element ={<HomePage/>}></Route>
           <Route  path='/recipes' element = {<Recipes/>}></Route>
           <Route  path='/aboutus' element = {<AboutUs/>}></Route>
@@ -26,3 +27,20 @@ function Routers() {
   }
   
   export default Routers
+
+// import React from 'react'
+// import HomePage from './HomePage'
+// import Login from './Login'
+// import { Routes, Route } from "react-router-dom"
+
+// function Routers() {
+//   return (
+//     <div>
+// <Routes>
+ 
+// </Routes>
+//     </div>
+//   )
+// }
+
+// export default Routers

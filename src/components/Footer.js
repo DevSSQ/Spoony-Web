@@ -43,9 +43,11 @@ import {
   
  function Footer() {
     return (
-      <Box
+      <Box className='footer'
         bg={useColorModeValue('#729B79', 'gray.900')}
-        color={useColorModeValue('gray.700', 'gray.200')}>
+        color={useColorModeValue('gray.700', 'gray.200')}
+        mt ={'2.5'}
+        >
         <Container
           as={Stack}
           maxW={'6xl'}

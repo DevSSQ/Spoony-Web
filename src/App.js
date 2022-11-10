@@ -9,14 +9,14 @@ import Recipes from './components/Recipes';
 import Routers from './components/Routers';
 
 
-
 function App() {
   return (
     <div className="App">
-      <Nav></Nav>
-      <HomePage></HomePage>
-    {/* <Routers></Routers> */}
-    <Footer></Footer>
+     <Nav></Nav>
+     <Routers></Routers>
+     {/* <Info></Info> */}
+{/* <HomePage></HomePage> */}
+<Footer></Footer>
     </div>
 
 

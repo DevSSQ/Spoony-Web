@@ -1,15 +1,11 @@
 import {
-    Badge,
-    Button,
     Center,
     Flex,
     Heading,
     Image,
-    Link,
     Stack,
     Text,
     useColorModeValue,
-    Box,
   } from '@chakra-ui/react';
   
   export default function FullRecipesCard(props) {

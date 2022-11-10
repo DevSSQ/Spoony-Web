@@ -180,3 +180,24 @@ border-radius: 5px;
   margin-left: 80px;
 
 }
+.loginDesign{
+  margin-top: -270px;
+  margin-left: 810px;
+  background-color: #fff1da;
+  position: absolute;
+  width: 632px;
+  height: 600px;
+  z-index: -1;
+  clip-path: circle(95.7% at 100% 3%);
+}
+
+.loginDesign2{
+  margin-top: 200px;
+  margin-right: 850px;
+  background-color: #fff1da;
+  position: absolute;
+  width: 632px;
+  height: 600px;
+  z-index: -1;
+  clip-path: circle(64.3% at 0% 91%);
+}
