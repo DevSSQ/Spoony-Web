@@ -1,14 +1,12 @@
 import { React } from 'react';
-
+import {Link} from 'react-router-dom';
 import { RecArray } from './RecArray';
 import Cards from './RecCards'
-
 import {
   Box,
   Flex,
   Avatar,
   HStack,
-  Link,
   IconButton,
   Button,
   Menu,
@@ -20,13 +18,14 @@ import {
   useColorModeValue,
   Stack,
   Input,
+  
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon, } from '@chakra-ui/icons';
 
-const Links = ['Home Page', 'Recipes', '  About Us'];
+const Links = [ <Link to ="/homepage">Home Page</Link>  , <Link to ="/recipes">Recipes</Link> , <Link to ="/aboutus">About Us</Link>];
 
 const NavLink =( { children })=> (
-  <Link
+  <Link className='navbardesign'
     px={2}
     py={1}
     rounded={'md'}
@@ -35,10 +34,11 @@ const NavLink =( { children })=> (
       textDecoration: 'none',
       bg: useColorModeValue('#d9918b'), color:"#fff1da"
     }}
-    href={'./AboutUs'}>
+   >
     {children}
   </Link>
 );
+
 
 function Nav() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -67,7 +67,8 @@ function Nav() {
               ))}
             </HStack>
           </HStack>
-          <Button 
+        
+         <Link to ='/login'> <Button 
             _hover={{bg:"#d9918b", color:"#fff1da"}}
             //  onClick={postData}
             variantColor="#025959"
@@ -77,7 +78,7 @@ function Nav() {
             width="50"
             mt={0}>
             Sign Up
-             </Button>
+             </Button></Link>
         </Flex>
 
         {isOpen ? (

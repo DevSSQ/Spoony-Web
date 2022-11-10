@@ -27,7 +27,7 @@ import {
               lineHeight={1.1}
               fontWeight={600}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
-              mt={'-180'}
+              mt={'-40'}
               color={'#729B79'}
               >
 
@@ -51,7 +51,10 @@ import {
               </Text> 
             </Heading>
             <Text className='hptext' color={'#729B79'}>
-            يقدم موقع سبوني العديد من الوصفات لمساعدة الأم والطفل لقضاء وقت ممتع في تحضير وصفات سهلة وسريعة
+            we have intered to the right place!
+            <br></br>
+           <br></br>
+           Spoony is a site for preparing easy and quick recipes with the mother and the child to spend a fun and useful time in the kitchen
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
@@ -81,6 +84,14 @@ import {
                 zIndex={'-1'}
               />
           <Box className='HPDesign2 '/>
+
+          {/* <Box className='boxGroup'>
+          <Box className='try1'/>
+          <Box className='try2'/>
+          <Box className='try3'/>
+          </Box> */}
+          
+
 
           </Flex>
         </Stack>

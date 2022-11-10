@@ -11,7 +11,7 @@ function Recipes() {
 	return (
 
 		<div >
-			<Box className='design '/>
+			<Box className='designRec '/>
 
 		<div className='Search'>
 		<Input placeholder='Search ...' 

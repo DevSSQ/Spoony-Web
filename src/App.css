@@ -8,11 +8,29 @@
 }
 .AboutUsImg{
   height: 500px;
-  margin-left: 90px;
-  margin-top: -100px;
+  margin-left: 700px;
+  margin-top: -600px;
   
 
 }
+
+.navbardesign{
+  color: #729B79;
+  font-family: 'Marker Felt' , fantasy;
+  font-weight: 400;
+  
+}
+.navbardesign  :hover{
+  font-family: 'Marker Felt' , fantasy;
+  font-weight: 400;
+  color:#fff1da;
+  background-color: #d9918b;
+  /* border: #d9918b; */
+  border-radius: 6px;
+  padding: 5px;
+  
+}
+
 .aboutusgrid{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -23,17 +41,18 @@
   font-size: 40px;
   color: #729B79;
 margin-left: 130px;
-margin-top: 60px;
+margin-top: 80px;
 }
 
 .textDec{
   text-align: center;
   margin-left: 130px;
-  margin-top: 100px;
+  margin-top: 85px;
   margin-bottom: 300px;
   font-size: 25px;
   color: #729B79; 
-  background-color: rgb(252, 252, 249);
+  /* background-color: rgb(252, 252, 249); */
+  width: 500px;
 
 }
 
@@ -84,9 +103,36 @@ text-align: center;
 
 }
 
-.design{
+.HPDesign3
+{
+  margin-top: -200px;
+  margin-left: 800px;
+  background-color: #fff1da;
+  position: absolute;
+  width: 632px;
+  height: 600px;
+  z-index: -1;
+  clip-path: circle(95.7% at 100% 7%);
+
+
+}
+.HPDesign4
+{
+  margin-top: -90px;
+  margin-right: 1300px;
+  background-color: #fff1da;
+  position: absolute;
+  width: 632px;
+  height: 600px;
+  z-index: -1;
+  clip-path: circle(64.3% at 0% 91%);
+
+
+}
+
+.designRec{
   margin-top: -480px;
-  margin-left: 700px;
+  margin-left: 630px;
   background-color: #fff1da;
   position: absolute;
   width: 632px;
@@ -94,6 +140,41 @@ text-align: center;
   z-index: -1;
   clip-path: circle(80% at 100% 32%);
 }
+.try1{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #729B79;
+margin-left: -300px;
+border-radius: 5px;
+}
+
+.try2{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #729B79;
+margin-left: -700px;
+border-radius: 5px;
+
+}
+
+.try3{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #729B79;
+margin-left: -500px;
+border-radius: 5px;
+}
+
+.boxGroup{
+  position: absolute; 
+  margin-top: 60px;
+}
+
+
+
 .Search{
   margin-top: 20px;
   margin-left: 80px;
