@@ -47,7 +47,7 @@ import {
            marginBottom={'245px'}
            >
             <Box textColor={"#729B79"} textAlign="center">
-            <Heading fontFamily='Marker Felt, fantasy' fontWeight={'600'} >Sign up</Heading>
+            <Heading fontFamily='Marker Felt, fantasy' fontWeight={'0'} >Sign up</Heading>
             </Box>
             <Box my={4} textAlign="left">
              <form onSubmit={handleSubmit}>
@@ -64,7 +64,7 @@ import {
 
            <Link href ="/Home">
             <Button 
-            _hover={{bg:"#F0677C", color:"white"}}
+            _hover={{bg:"#d9918b", color:"white" , textDecoration: 'none',}}
              onClick={postData}
              textColor={"#729B79"}
             variantColor="#F0677C"

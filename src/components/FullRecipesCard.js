@@ -7,7 +7,8 @@ import {
     Text,
     useColorModeValue,
   } from '@chakra-ui/react';
-  
+  import {Link} from 'react-router-dom';
+
   export default function FullRecipesCard(props) {
     return (
       <Center py={6}>
@@ -35,7 +36,7 @@ import {
             alignItems="center"
             p={1}
             pt={2}>
-            <Heading fontSize={'2xl'} fontFamily={'body'}>
+            <Heading fontSize={'2xl'} fontFamily={'body'} color={'#729B79'}>
             {props.name}
             </Heading>
             
@@ -43,7 +44,7 @@ import {
               textAlign={'center'}
               color={useColorModeValue('gray.700', 'gray.400')}
               px={3}>
-              <br></br> <Heading fontSize={'md'}>Ingredients:</Heading>
+              <br></br> <Heading fontSize={'md'} color={'#729B79'}>Ingredients:</Heading>
            <br></br> {props.Ingred}
 
             </Text>
@@ -52,7 +53,7 @@ import {
               textAlign={'center'}
               color={useColorModeValue('gray.700', 'gray.400')}
               px={3}>
-                 <br></br> <Heading fontSize={'sm'}>Directions:</Heading>
+                 <br></br> <Heading fontSize={'sm'} color={'#729B79'}>Directions:</Heading>
             <br></br>{props.Dire}
 
             </Text>

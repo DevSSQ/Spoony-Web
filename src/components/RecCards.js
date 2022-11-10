@@ -9,7 +9,8 @@ import {
     Button,
     color
   } from '@chakra-ui/react';
-  
+  import {Link} from 'react-router-dom';
+
  
 function Cards(props) {
     return (
@@ -53,7 +54,7 @@ function Cards(props) {
               src={props.pic}
             />
           </Box>
-           <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500} marginTop ={'10px'} color ="#F4A46C">
+           <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500} marginTop ={'10px'} color ="#729B79" textAlign={'center'}>
               {props.name}
             </Heading>
            <Stack pt={2} align={'center'}>
@@ -61,17 +62,21 @@ function Cards(props) {
               {props.eTime}
             </Text>
           </Stack>
+          <Link to ="/Info"> 
           <Button 
-            _hover={{bg:"#F0677C", color:"white"}}
+            _hover={{bg:"#d9918b", color:"white"}}
             //  onClick={postData}
             variantColor="#F0677C"
             color={'gray.500'}
             variant="outline"
             type="submit"
             width="50"
-            mt={4}>
+            mt={4}
+            ml={70}
+          >
                 Go to recipe
              </Button>
+             </Link>
         </Box>
       </Center>
     );

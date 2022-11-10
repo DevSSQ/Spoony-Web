@@ -4,12 +4,14 @@ import AboutUs from "./AboutUs";
 import HomePage from "./HomePage";
 import Recipes from "./Recipes";
 import Login from "./Login";
-
+import FullRecipesCard from "./FullRecipesCard";
+import Info from "./Info";
 
 
 function Routers() {
     return (
       <div>
+        
           <Routes>
           <Route path='/' element ={<Login/>}></Route>
     <Route path='/Home' element ={<HomePage/>}></Route>
@@ -17,6 +19,8 @@ function Routers() {
           <Route  path='/recipes' element = {<Recipes/>}></Route>
           <Route  path='/aboutus' element = {<AboutUs/>}></Route>
           <Route  path='/login' element = {<Login/>}></Route>
+          <Route  path='/info' element = {<Info/>}></Route>
+
 
           
   

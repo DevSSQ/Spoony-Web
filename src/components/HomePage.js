@@ -42,15 +42,13 @@ import {
                 Spoony
               </Text> 
             </Heading>
-            <Text className='hptext' color={'#729B79'}>
+            <Text className='hptext' color={'#729B79'} fontFamily='Marker Felt, fantasy' >
             we have intered to the right place!
             <br></br>
            <br></br>
            Spoony is a site for preparing easy and quick recipes with the mother and the child to spend a fun and useful time in the kitchen
 </Text>
-            <Text className='hptext' color={'#729B79'} fontFamily='Marker Felt, fantasy' fontWeight={'500'}>
-            Helps All the working mothers to have a good time with there children
-            </Text>
+            
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
