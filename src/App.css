@@ -1,3 +1,10 @@
+.App{
+  font-family: 'Marker Felt', fantasy;
+  font-weight: 600;
+  font-size:large;
+  position:sticky;
+  top:0;
+}
 .aboutus{
 background-color: aliceblue;
 height: 250px;
@@ -18,8 +25,8 @@ grid-template-columns: repeat(2,1fr);
 }
 
 .aboutustext{
-  font-size: 40px;
-  color: #729B79;
+font-size: 40px;
+color: #729B79;
 margin-left: 130px;
 margin-top: 60px;
 }
@@ -29,6 +36,7 @@ margin-top: 60px;
   margin-left: 130px;
   margin-top: 100px;
   margin-bottom: 300px;
+  font-family: 'Chalkduster', fantasy;
   font-size: 25px;
   color: #729B79; 
   background-color: rgb(252, 252, 249);
@@ -49,12 +57,13 @@ margin-top: 60px;
 
 .hptext{
 font-size: 25px;
+font-family: 'Chalkduster', fantasy;
 text-align: center;
 }
 
-.HPDesign
-{
-  margin-top: -480px;
+.HPDesign{
+  margin-top: -400px;
+  margin-right: -165px;
   background-color: #fff1da;
   position: absolute;
   width: 632px;
@@ -63,18 +72,37 @@ text-align: center;
   clip-path: circle(95.7% at 100% 3%);
 }
 
-.HPDesign2
-{
+.HPDesign2{
   margin-top: 200px;
-  margin-right: 1300px;
+  margin-right: 1450px;
   background-color: #fff1da;
   position: absolute;
   width: 632px;
   height: 600px;
   z-index: -1;
   clip-path: circle(64.3% at 0% 91%);
+}
 
+.loginDesign{
+  margin-top: -270px;
+  margin-left: 810px;
+  background-color: #fff1da;
+  position: absolute;
+  width: 632px;
+  height: 600px;
+  z-index: -1;
+  clip-path: circle(95.7% at 100% 3%);
+}
 
+.loginDesign2{
+  margin-top: 200px;
+  margin-right: 850px;
+  background-color: #fff1da;
+  position: absolute;
+  width: 632px;
+  height: 600px;
+  z-index: -1;
+  clip-path: circle(64.3% at 0% 91%);
 }
 
 .design{
@@ -91,5 +119,5 @@ text-align: center;
 .Search{
   margin-top: 20px;
   margin-left: 80px;
-
+  font-family: 'Marker Felt', fantasy;
 }

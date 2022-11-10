@@ -1,27 +1,16 @@
 import { React } from 'react';
-
-import { RecArray } from './RecArray';
-import Cards from './RecCards'
-
 import {
   Box,
   Flex,
-  Avatar,
   HStack,
   Link,
   IconButton,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
   useDisclosure,
   useColorModeValue,
   Stack,
-  Input,
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon, AddIcon, } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon, } from '@chakra-ui/icons';
 
 const Links = ['Home Page', 'Recipes', '  About Us'];
 
@@ -33,7 +22,7 @@ const NavLink =( { children })=> (
     color={'#729B79'}
     _hover={{
       textDecoration: 'none',
-      bg: useColorModeValue('#d9918b'), color:"#fff1da"
+      bg: useColorModeValue('#d9918b'), color:"white"
     }}
     href={'./AboutUs'}>
     {children}
@@ -43,13 +32,11 @@ const NavLink =( { children })=> (
 function Nav() {
   const { isOpen, onOpen, onClose } = useDisclosure();
  
-
   return (
     <>
       <Box color ='black'bg={useColorModeValue( )} px={4}  variantColor="#729B79" variant="outline">
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
-          
             size={'md'}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
             aria-label={'Open Menu'}
@@ -75,7 +62,9 @@ function Nav() {
             variant="outline"
             type="submit"
             width="50"
-            mt={0}>
+            mt={0}
+            fontSize={'large'}
+            >
             Sign Up
              </Button>
         </Flex>
@@ -90,7 +79,6 @@ function Nav() {
           </Box>
         ) : null}
       </Box>
-
     </>
   );
 }
